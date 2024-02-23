@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="calendar.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <button class="calendar_button" onclick="previous()">Previous</button>
+        <span id="monthYear"></span>
+        <button class="calendar_button" onclick="next()">Next</button>
+      </header>
+      <main>
+        <table id="calendar" class="calendar__table">
+          <thead>
+            <tr>
+              <th>Mo</th>
+              <th>Tu</th>
+              <th>We</th>
+              <th>Th</th>
+              <th>Fr</th>
+              <th>Sa</th>
+              <th>Su</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </main>
+    </div>
+    <script src="calendar.js"></script>
+  </body>
+</html>
