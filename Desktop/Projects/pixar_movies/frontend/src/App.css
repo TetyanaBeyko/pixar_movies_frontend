@@ -38,7 +38,7 @@ body {
 
 .card {
   max-width: 200px;
-  max-height: 500px;
+  max-height: 600px;
   border-radius: 8px;
   border: 1px solid transparent;
   margin: 10px;
@@ -52,7 +52,7 @@ body {
 
 .card-content {
   padding: 10px;
-  display: flex; 
+  display: flex; /* Змінив inline-flex на flex для відступів */
   justify-content: center;
   align-items: center;
 }
@@ -88,9 +88,7 @@ body {
 }
 
 .popup h2 {
-  margin-bottom: 10px;
-  padding: 30px;
-  
+  margin-bottom: 5px;
 }
 
 .popup img {
@@ -106,7 +104,7 @@ body {
 .popup-info p {
   margin-bottom: 10px; 
   font-size: 1rem; 
-  color: #e4f9d5; 
+  color: #ffffff; 
 }
 
 .rating-circle {
